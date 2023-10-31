@@ -25,3 +25,8 @@
 - sass를 설치합니다. `npm install sass`
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
+
+## 깃 커밋
+- git add .
+- git commit -m "😤 뷰 첫 커밋 완료"
+- git push -u origin main
