@@ -30,3 +30,7 @@
 - git add .
 - git commit -m "😤 뷰 첫 커밋 완료"
 - git push -u origin main
+
+
+## How to run
+- npm run dev
