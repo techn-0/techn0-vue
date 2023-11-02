@@ -1,44 +1,53 @@
+<script setup>
+import { headerNav } from "@/constants/index";
+</script>
+
 <template>
     <header id="header" role="banner">
         <div class="header__inner">
             <h1 class="header__logo">
                 <a href="#">portfolio<em>vue.js</em></a>
             </h1>
-            <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
+            <nav class="header__nav" role="navigation" aria-label="메인 메뉴" :class="{ show: isNavVisible }">
                 <ul>
-                    <li><a href="#intro">intro</a></li>
-                    <li><a href="#skill">skill</a></li>
-                    <li><a href="#site">site</a></li>
-                    <li><a href="#port">portfolio</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
+                    <li v-for="(nav, key) in headerNav" :key="key">
+                        <a :href="nav.url">{{ nav.title }}</a>
+                    </li> 
+                </ul> 
             </nav>
-            <div class="header__nav__mobile" id="headerToggle" aria-controls="primary-menu" aria-expanded="false" role="button" tabindex="0">
+            <div
+                class="header__nav__mobile"
+                id="headerToggle"
+                aria-controls="primary-menu"
+                :aria-expanded="isNavVisible.toString()"
+                @click="toggleMobileMenu"
+            >
                 <span></span>
             </div>
         </div>
     </header>
 </template>
 
-
 <script>
-const headerToggle = document.getElementById("headerToggle");
-const headerNav = document.querySelector(".header__nav");
-
-if (headerToggle) {
-    headerToggle.addEventListener("click", () => {
-    headerNav.classList.toggle("show");
-    headerToggle.getAttribute("aria-expanded") === "true"
-        ? headerToggle.setAttribute("aria-expanded", "false")
-        : headerToggle.setAttribute("aria-expanded", "true");
-    });
-}
+export default {
+    data() {
+        return {
+            isNavVisible: false,
+        };
+    },
+    methods: {
+        toggleMobileMenu() {
+            this.isNavVisible = !this.isNavVisible;
+        },
+    },
+};
 </script>
 
 
 <style lang="scss" scoped>
 @import "@/assets/scss/mixin";
 
+@import "@/assets/scss/mixin";
 
 #header {
     @include position-fixed;
@@ -168,42 +177,5 @@ if (headerToggle) {
             }
         }
     }
-    
 } 
-@media (max-width: 800px){
-    .header__nav {
-        display: none;
-    }
-    .header__nav.show {
-        display: block;
-    }
-    .header__nav.show ul {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 68px;
-        background-color: rgba(116,99,99,0.1);
-        backdrop-filter: blur(15px);
-        z-index: 10000;
-        min-width: 150px;
-        padding: 20px 0;
-    }
-    .header__nav.show li {
-        display: block;
-        text-align: right;
-    }
-    .header__nav.show li a {
-        display: inline-block;
-        padding: 10px;
-    }
-    .header__nav.show + .header__nav__mobile span::before {
-        width: 20px;
-    }
-    .header__nav.show + .header__nav__mobile span::after {
-        width: 20px;
-    }
-    .header__nav__mobile {
-        display: block;
-    }
-}
 </style>
