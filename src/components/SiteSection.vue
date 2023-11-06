@@ -36,7 +36,7 @@
                 <div class="info">
                     <span>Make</span>
                     <span>production period : Two months+</span>
-                    <span>use stack : HTML5/CSS3, CSS Variable, Vite</span>
+                    <span>use stack : HTML5/CSS3,JS, Vue</span>
                 </div>
             </article>
             <article class="site__item s3">
