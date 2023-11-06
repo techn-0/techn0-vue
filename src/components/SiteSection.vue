@@ -12,8 +12,8 @@
                 </div>
                 <h3 class="title">웹 표준을 준수한 사이트 제작</h3>
                 <div class="btn">
-                    <a href="https://github.com/webstoryboy/port2023-vite">code</a>
-                    <a href="https://port2023-vite.netlify.app/">view</a>
+                    <a href="https://github.com/techn-0/techn-0.github.io">code / </a>
+                    <a href="https://techn-0.github.io/">view</a>
                 </div>
                 <div class="info">
                     <span>site coding</span>
