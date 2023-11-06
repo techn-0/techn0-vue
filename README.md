@@ -2,6 +2,9 @@
 
 나만의 공간을 만들어 보기 위한 공부겸 프로젝트 입니다.
 
+링크
+https://luxury-selkie-fedc4e.netlify.app
+
 
 ## 사용
 - vue(https://ko.vuejs.org/) 사이트 번들링, 관리
