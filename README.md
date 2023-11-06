@@ -1,26 +1,16 @@
-# 포트폴리오 사이트 만들기 프로젝트
+# Vue 블로그 개발
 
-이 튜토리얼은 하나의 웹사이트를 여러 가지 프레임워크를 사용하여 만드는 방법에 대해 소개합니다. 
-웹 개발자들은 종종 다양한 프레임워크를 이용하여 작업하게 됩니다. 
-이 과정에서 여러 가지 프레임워크들을 어떻게 적용하는지 알아보고, 
-각 프레임워크들의 장단점을 비교 분석하며 학습하게 됩니다.
+나만의 공간을 만들어 보기 위한 공부겸 프로젝트 입니다.
 
-[vue.js](https://github.com/webstoryboy/port2023-vue)를 이용하여 사이트를 제작합니다.
 
-깊이 배우기 보다는 다양한 방법을 사용하여 흐름과 감각을 익히기 위한 튜토리얼입니다. 
+## 사용
+- vue(https://ko.vuejs.org/) 사이트 번들링, 관리
+- gsap(https://greensock.com/gsap) 패럴랙스 효과
+- lenis(https://lenis.studiofreight.com/)스무스 효과
+- netlify(https://www.netlify.com/) 배포
+- github(https://github.com/) 파일 관리.
 
-## 완성작 보기 
-미리보기 : 
-
-## 사용 스택
-- vue(https://ko.vuejs.org/) 를 사용하여 사이트를 번들링하고 관리
-- gsap(https://greensock.com/gsap) 를 이용하여 패럴랙스 효과를 줌
-- lenis(https://lenis.studiofreight.com/) 를 이용하여 스무스 효과를 구현
-- netlify(https://www.netlify.com/) 를 통해 사이트를 배포
-- github(https://github.com/) 을 사용하여 파일 관리.
-- HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계, 웹 표준 및 웹 접근성을 준수하여 작업 [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
-
-## 프로젝트 실행
+## 실행
 - vue를 설치합니다. `npm init vue@latest`
 - sass를 설치합니다. `npm install sass`
 - gsap를 설치합니다. `npm install gsap`
@@ -28,7 +18,7 @@
 
 ## 깃 커밋
 - git add .
-- git commit -m "😤 뷰 첫 커밋 완료"
+- git commit -m "펩시콜라맛있다"
 - git push -u origin main
 
 

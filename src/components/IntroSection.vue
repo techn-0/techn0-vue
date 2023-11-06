@@ -93,7 +93,7 @@ import { introText } from "../constants";
             z-index: 100;
             transition: all 0.3s;
             cursor: all-scroll;
-            color: rgb(149, 39, 182);
+            color: rgb(207, 117, 234);
 
             @media (max-width: 800px){ 
                 font-size: 24px;

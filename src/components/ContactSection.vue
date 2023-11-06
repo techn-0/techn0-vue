@@ -20,10 +20,10 @@
             <div class="contact__text">
                 <div class="text">
                     <div>
-                        <a href="https://open.kakao.com/o/gM7YLzwf" target="_blank">KAKAO : Webstroyboy</a>
+                        <a href="https://open.kakao.com/o/s0CjwVQf" target="_blank">KAKAO : TeachN0</a>
                     </div>
                     <div>
-                        <a href="mailto:webstoryboy@naver.com" target="_blank">mail : WEBSTORYBOY@NAVER.COM</a>
+                        <a href="mailto:gnlrjswjd@naver.com" target="_blank">mail : gnlrjswjd@naver.com</a>
                     </div>
                 </div>
             </div>

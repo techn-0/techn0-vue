@@ -6,11 +6,11 @@
             <article class="site__item s1">
                 <span class="num">1.</span>
                 <div class="text">
-                    <div>Make</div>
-                    <div>site compliant with</div>
-                    <div>webstandard</div>
+                    <div>Interactive</div>
+                    <div>Web site with</div>
+                    <div>HTML / CSS / JS</div>
                 </div>
-                <h3 class="title">웹 표준을 준수한 사이트 제작</h3>
+                <h3 class="title">처음 만든 인터렉티브 웹페이지</h3>
                 <div class="btn">
                     <a href="https://github.com/techn-0/techn-0.github.io">code / </a>
                     <a href="https://techn-0.github.io/">view</a>
@@ -25,16 +25,16 @@
                 <span class="num">2.</span>
                 <div class="text">
                     <div>Make</div>
-                    <div>site compliant with</div>
-                    <div>react.js</div>
+                    <div>Blog with</div>
+                    <div>vue</div>
                 </div>
-                <h3 class="title">리액트를 이용한 사이트 제작</h3>
+                <h3 class="title">VUE를 이용한 블로그 제작</h3>
                 <div class="btn">
-                    <a href="https://github.com/webstoryboy/port2023-react">code</a>
-                    <a href="https://port2023-react.netlify.app/">view</a>
+                    <a href="https://github.com/techn-0/techn0-vue">code / </a>
+                    <a href="준비중">view</a>
                 </div>
                 <div class="info">
-                    <span>site coding</span>
+                    <span>Make</span>
                     <span>production period : two days</span>
                     <span>use stack : HTML5/CSS3, CSS Variable, Vite</span>
                 </div>
@@ -42,37 +42,37 @@
             <article class="site__item s3">
                 <span class="num">3.</span>
                 <div class="text">
-                    <div>Make</div>
-                    <div>site compliant with</div>
-                    <div>vue.js</div>
+                    <div>Coming soon</div>
+                    <div>Coming soon</div>
+                    <div>Coming soon</div>
                 </div>
-                <h3 class="title">뷰를 이용한 사이트 제작</h3>
+                <h3 class="title">Coming soon</h3>
                 <div class="btn">
-                    <a href="https://github.com/webstoryboy/port2023-vue">code</a>
-                    <a href="https://port2023-vue.netlify.app/">view</a>
+                    <a href="Coming soon">code / </a>
+                    <a href="Coming soon">view</a>
                 </div>
                 <div class="info">
-                    <span>site coding</span>
-                    <span>production period : two days</span>
-                    <span>use stack : vue.js, CSS Variable, vite</span>
+                    <span>Coming soon</span>
+                    <span>Coming soon</span>
+                    <span>Coming soon</span>
                 </div>
             </article>
             <article class="site__item s4">
                 <span class="num">4.</span>
                 <div class="text">
-                    <div>Make</div>
-                    <div>site compliant with</div>
-                    <div>next.js</div>
+                    <div>Coming soon</div>
+                    <div>Coming soon</div>
+                    <div>Coming soon</div>
                 </div>
-                <h3>넥스트를 이용한 사이트 제작</h3>
+                <h3>Coming soon</h3>
                 <div class="btn">
-                    <a href="https://github.com/webstoryboy/port2023-next">code</a>
-                    <a href="https://port2023-next.netlify.app/">view</a>
+                    <a href="Coming soon">code / </a>
+                    <a href="Coming soon">view</a>
                 </div>
                 <div class="info">
-                    <span>site coding</span>
-                    <span>production period : two days</span>
-                    <span>use stack : next.js, CSS Variable, Vite</span>
+                    <span>Coming soon</span>
+                    <span>Coming soon</span>
+                    <span>Coming soon</span>
                 </div>
             </article>
         </div>
