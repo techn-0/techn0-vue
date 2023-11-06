@@ -12,8 +12,8 @@ export const headerNav = [
         url: "#site",
     },
     {
-        title: "portfolio",
-        url: "#port",
+        title: "gallery",
+        url: "#gallery",
     },
     {
         title: "contact",

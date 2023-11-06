@@ -6,7 +6,7 @@ import { headerNav } from "@/constants/index";
     <header id="header" role="banner">
         <div class="header__inner">
             <h1 class="header__logo">
-                <a href="#">portfolio<em>vue.js</em></a>
+                <a href="#">TechN0<em>Blog</em></a>
             </h1>
             <nav class="header__nav" role="navigation" aria-label="메인 메뉴" :class="{ show: isNavVisible }">
                 <ul>
