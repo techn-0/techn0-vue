@@ -17,8 +17,8 @@
                 </div>
                 <div class="info">
                     <span>site coding</span>
-                    <span>production period : two days</span>
-                    <span>use stack : html5/css3, CSS Variable, Vite</span>
+                    <span>production period : A month+</span>
+                    <span>use stack : html5/css3/JS</span>
                 </div>
             </article>
             <article class="site__item s2">
@@ -31,11 +31,11 @@
                 <h3 class="title">VUE를 이용한 블로그 제작</h3>
                 <div class="btn">
                     <a href="https://github.com/techn-0/techn0-vue">code / </a>
-                    <a href="준비중">view</a>
+                    <a href="https://luxury-selkie-fedc4e.netlify.app/">view</a>
                 </div>
                 <div class="info">
                     <span>Make</span>
-                    <span>production period : two days</span>
+                    <span>production period : Two months+</span>
                     <span>use stack : HTML5/CSS3, CSS Variable, Vite</span>
                 </div>
             </article>
