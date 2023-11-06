@@ -28,7 +28,7 @@ import { introText } from "../constants";
                 </div>
             </div>
             <div class="intro__lines bottom" aria-hidden="true">
-                <span class="line"></span>
+                <span class="line" ></span>
                 <span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span>
@@ -65,6 +65,7 @@ import { introText } from "../constants";
         white-space: nowrap;
         text-indent: -0.5vw;
         letter-spacing: -0.3vw;
+        color: palevioletred;
 
         @media (max-width: 320px){ 
             display: none;
@@ -92,6 +93,7 @@ import { introText } from "../constants";
             z-index: 100;
             transition: all 0.3s;
             cursor: all-scroll;
+            color: rgb(149, 39, 182);
 
             @media (max-width: 800px){ 
                 font-size: 24px;
@@ -124,6 +126,7 @@ import { introText } from "../constants";
     }
     .intro__lines {
         width: 100%;
+        
 
         .line {
             display: block;
@@ -131,6 +134,7 @@ import { introText } from "../constants";
             height: 1px;
             background-color: var(--black);
             margin-bottom: 0.5vw;
+            
 
             &:nth-child(1){
                 height: 1px;
