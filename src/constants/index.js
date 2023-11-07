@@ -23,7 +23,7 @@ export const headerNav = [
 
 export const introText = {
     title: "sw developer",
-    desc: ["모두가 연결된", "평등한 서비스 이용을 제공하는", "TechN0"],
+    desc: ["모두가 연결되는", "평등한 서비스를", " 제공하는", "TechN0"],
 };
 
 

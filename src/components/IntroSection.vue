@@ -22,6 +22,7 @@ import { introText } from "../constants";
                     <div>{{ introText.desc[0] }}</div>
                     <div>{{ introText.desc[1] }}</div>
                     <div>{{ introText.desc[2] }}</div>
+                    <div>{{ introText.desc[3] }}</div>
                 </div>
                 <div class="img">
                     <img src="@/assets/img/about.jpg" alt="어바웃미">
@@ -90,10 +91,10 @@ import { introText } from "../constants";
             text-decoration: underline;
             text-align: center;
             position: relative;
-            z-index: 100;
+            z-index: 100;   
             transition: all 0.3s;
             cursor: all-scroll;
-            color: rgb(207, 117, 234);
+            color: rgb(228, 123, 123);
 
             @media (max-width: 800px){ 
                 font-size: 24px;
