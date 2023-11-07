@@ -17,7 +17,7 @@
                 </div>
                 <div class="info">
                     <span>site coding</span>
-                    <span>production period : A month+</span>
+                    <span>Study and project duration : A month+</span>
                     <span>use stack : html5/css3/JS</span>
                 </div>
             </article>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="info">
                     <span>Make</span>
-                    <span>production period : Two months+</span>
+                    <span>Study and project duration : Two months+</span>
                     <span>use stack : HTML5/CSS3,JS, Vue</span>
                 </div>
             </article>
