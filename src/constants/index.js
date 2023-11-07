@@ -23,7 +23,7 @@ export const headerNav = [
 
 export const introText = {
     title: "sw developer",
-    desc: ["모두가 연결될 수 있는", "평등한 개발자를 꿈꾸는", "TechN0"],
+    desc: ["모두가 연결될 수 있는", "평등한 사회를 개발하는", "TechN0"],
 };
 
 
