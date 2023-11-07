@@ -9,7 +9,7 @@ https://luxury-selkie-fedc4e.netlify.app
 ## 사용
 - vue(https://ko.vuejs.org/) 사이트 번들링, 관리
 - gsap(https://greensock.com/gsap) 패럴랙스 효과
-- lenis(https://lenis.studiofreight.com/)스무스 효과
+- lenis(https://lenis.studiofreight.com/) 스무스 효과
 - netlify(https://www.netlify.com/) 배포
 
 ## 실행
