@@ -13,7 +13,7 @@ export const headerNav = [
     },
     {
         title: "gallery",
-        url: "#gallery",
+        url: "#port",
     },
     {
         title: "contact",
