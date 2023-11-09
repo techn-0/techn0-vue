@@ -20,7 +20,7 @@ https://luxury-selkie-fedc4e.netlify.app
 
 ## 깃 커밋
 - git add .
-- git commit -m "펩시콜라맛있다"
+- git commit -m "펩시콜라맛있다."
 - git push -u origin main
 
 
